@@ -1,0 +1,499 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 60px;
+    margin: 0;
+}
+
+header, body{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    z-index: 999;
+}
+
+.logo {
+    width: 100px;
+    display: flex;
+    padding: 0 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.user-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.nav_text {
+    color: black;
+    margin: 0 50px;
+    font-size: 26px;
+}
+
+.navbar {
+    margin-left: 150px;
+}
+
+.authorization {
+    display: flex;
+}
+
+.authorization_text_div {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin-right: 20px; 
+}
+
+.authorization a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.authorization a.authorization_text {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* --- banner --- */
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.banner_text_container {
+    max-width: 60%;
+}
+
+.banner_text {
+    font-size: 53px;
+    margin: 0;
+}
+
+.banner_button {
+    border: 2px solid #ff4c00;
+    border-radius: 30px;
+    width: 360px;
+    height: 88px;
+    background: #ff4c00;
+    color: #ffffff;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.banner_img_coffee {
+    width: 675px;
+    height: 490px;
+}
+
+.advantages{
+    margin-top: 113px;
+}
+
+.advantages_block {
+    display: flex;
+    justify-content: center;
+}
+
+.advantages_main_text{
+    font-size: 56px;
+}
+
+.advantages_one, .advantages_two, .advantages_three, .advantages_four {
+    display: flex;
+    margin: 60px;
+}
+
+.advantages_column_two {
+    margin-left: 110px;
+}
+
+.advantages_text_for_advantages {
+    display: block;
+    margin-left: 14px;
+}
+
+/* --- end banner --- */
+
+/* --- buy --- */
+
+.buy {
+    margin-top: 103px;
+}
+
+.buy_main_text {
+    font-size: 56px;
+}
+
+.buy_help_for_main_text, .buy_help_for_change_color {
+    font-size: 38px;
+}
+
+.buy_coffee_poetti>img{
+    vertical-align: middle;
+}
+
+.buy_change_color {
+    display: flex;
+}
+
+.main_buy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.change_color {
+    margin-left: auto;
+    text-align: right;
+}
+
+.color {
+    margin: 0 30px;
+}
+
+.main_buy, .buy_coffee_text {
+    display: flex;
+}
+
+.buy_name_coffee, .buy_price_coffee {
+    font-size: 38px;
+}
+
+.buy_price_coffee {
+    margin-left: 96px;
+}
+
+.buy_button {
+    border-radius: 30px;
+    border: 1px solid #ff4c00;
+    background-color: #ff4c00;
+    width: 265px;
+    height: 82px;
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0;
+}
+
+.basket_button {
+    border: 3px solid #ff4c00;
+    background-color: #ffffff;
+    border-radius: 30px;
+    width: 265px;
+    height: 82px;
+    font-size: 26px;
+    margin-right: 50px;
+}
+
+.buy_all_button {
+    display: flex;
+    justify-content: end;
+    margin-top: -100px;
+}
+
+/* --- end buy --- */
+
+/* --- reviews --- */
+
+.reviews_main_text {
+    font-size: 56px;
+}
+
+.reviews {
+    margin-top: 125px;
+}
+
+.reviews_block {
+    display: flex;
+}
+
+.reviews_block_one, .reviews_block_two{
+    border: 5px solid #000;
+    width: 630px;
+    height: 260px;
+}
+
+.reviews_name {
+    font-size: 36px;
+    margin-left: 20px;
+}
+
+.reviews_review {
+    font-size: 17px;
+    padding: 0 20px;
+}
+
+.reviews_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews_block_two {
+    margin-left: auto;
+}
+
+/* --- end reviews --- */
+
+.line_footer {
+    border: 1px solid black;
+    margin-top: 200px;
+}
+
+/* --- footer --- */
+
+.footer {
+    margin-top: 40px;
+}
+
+.footer_img {
+    width: 79px;
+    height: 79px;
+}
+
+.footer_img_text {
+    font-size: 26px;
+}
+
+.logo_in_footer {
+    display: flex;
+}
+
+.footer_navbar {
+    margin-top: 97px;   
+}
+
+.footer_nav_text {
+    color: black;
+    margin-right: 77px;
+    font-size: 26px;
+}
+
+.footer_contact_text, .footer_text_contact {
+    font-size: 26px;
+}
+
+.contact_in_footer {
+    margin-top: 72px;
+}
+
+.footer_right_part {
+    text-align: right;
+    display: block;
+    justify-content: end;
+}
+
+.footer_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --- end footer --- */
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #ffffff;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff4c00;
+    border-radius: 9px;
+}
+
+/* --- basket.html --- */
+
+.basket_main_text {
+    font-size: 58px;
+    margin-top: 50px;
+}
+
+.line {
+    border: 1px solid black;
+    margin-top: 70px;
+}
+
+.basket_block, .basket_content {
+    display: flex;
+}
+
+.img_coffee {
+    width: 262px;
+    height: 353px;
+}
+
+.text_for_coffee {
+    font-size: 38px;
+}
+
+.text_margin {
+    margin-top: 110px;
+}
+
+.new_basket_btn {
+    float: right;
+}
+
+/* --- end basket.html --- */
+
+/* --- shop.html --- */
+
+.shop_main_text {
+    font-size: 48px;
+}
+
+.text_for_shop_coffee {
+    font-size: 26px;
+}
+
+.main_container {
+    display: flex;
+}
+
+.img_coffee {
+    width: 446px;
+    height: 598px;
+}
+
+.all_text {
+    margin-left: 300px;
+}
+
+.new_btn {
+    margin-top: 50px;
+}
+
+/* --- end shop.html --- */
+
+/* --- login.html --- */
+
+.login-box {
+	width: 600px;
+	height: 450px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 20px;
+	position: absolute;
+    border-radius: 10px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.login-box h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.login-box label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.login-box input[type="email"],
+.login-box input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.login-box input[type="submit"] {
+    width: 200px;
+	background-color: #ff4c00;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+    transition: ease-in-out 0.7s;   
+    margin-left: 31%;
+}
+
+.login-box input[type="submit"]:hover {
+	background-color: #7c2702;
+    transition: ease-in-out 0.5s;
+}
+
+.line_footer_two {
+    margin-top: 700px;
+}
+
+.password_text {
+    margin-top: 20px;
+}
+
+.text_auth {
+    text-align: center;
+}
+
+.margin_l {
+    text-align: center;
+    font-size: 22px;
+}
+
+/* --- end login.html --- */
+
+/* --- register.html --- */
+
+.reg_box {
+    width: 600px;
+	height: 600px !important;
+}
+
+.login-box #name,
+.login-box #surname {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
