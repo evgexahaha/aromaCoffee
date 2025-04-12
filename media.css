@@ -1,0 +1,471 @@
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 20px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 0;
+    }
+
+    header > .navbar, .authorization, .change_color, .arrow_for_img, .buy_help_for_main_text {
+        display: none;
+    }
+
+
+    .logo {
+        width: 80px;
+        padding: 0 10px;
+    }
+
+    .logo h2 {
+        font-size: 20px;
+    }
+
+    .navbar {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .nav_text {
+        font-size: 18px;
+        margin: 0 20px;
+    }
+
+    .authorization {
+        margin-top: 10px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .authorization_text_div {
+        flex-direction: row;
+        margin-right: 10px;
+    }
+
+    .authorization_text {
+        font-size: 16px;
+        margin: 0 10px;
+    }
+
+    .nav_img_account {
+        width: 30px;
+        height: 30px;
+    }
+
+    .banner {
+        flex-direction: column;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .banner_text_container {
+        max-width: 100%;
+    }
+
+    .banner_text {
+        font-size: 36px;
+    }
+
+    .banner_button {
+        width: 250px;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    .banner_img_coffee {
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+        margin-top: 20px;
+    }
+
+    .advantages {
+        margin-top: 60px;
+    }
+
+    .advantages_main_text {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .advantages_block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantages_column_one,
+    .advantages_column_two {
+        margin-left: 0;
+    }
+
+    .advantages_one,
+    .advantages_two,
+    .advantages_three,
+    .advantages_four {
+        margin: 30px 0;
+        align-items: center;
+    }
+
+    .advantages_text_for_advantages h2 {
+        font-size: 24px;
+    }
+
+    .advantages_text_for_advantages p {
+        font-size: 16px;
+    }
+
+    .buy {
+        margin-top: 60px;
+    }
+
+    .buy_main_text {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .buy_help_for_main_text,
+    .buy_help_for_change_color {
+        font-size: 28px;
+    }
+
+    .main_buy {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .change_color {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .buy_coffee_poetti {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .color {
+        margin: 0 15px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .color circle {
+        cx: 20;
+        cy: 20;
+        r: 20;
+    }
+
+    .buy_coffee_text {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .buy_name_coffee,
+    .buy_price_coffee {
+        font-size: 28px;
+    }
+
+    .buy_price_coffee {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .buy_all_button {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .basket_button,
+    .buy_button {
+        width: 200px;
+        height: 60px;
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .reviews {
+        margin-top: 60px;
+    }
+
+    .reviews_main_text {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .reviews_block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviews_block_one,
+    .reviews_block_two {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        margin: 20px 0;
+        padding: 10px;
+    }
+
+    .reviews_name {
+        font-size: 28px;
+    }
+
+    .reviews_review {
+        font-size: 16px;
+    }
+
+    .line_footer {
+        margin-top: 100px;
+    }
+
+    .footer_main {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer_left_part {
+        margin-bottom: 20px;
+    }
+
+    .footer_img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .footer_img_text {
+        font-size: 20px;
+    }
+
+    .footer_navbar {
+        margin-top: 20px;
+    }
+
+    .footer_nav_text {
+        font-size: 18px;
+        margin: 0 20px;
+    }
+
+    .footer_right_part {
+        text-align: center;
+    }
+
+    .footer_contact_text,
+    .footer_text_contact {
+        font-size: 20px;
+    }
+
+    .contact_in_footer {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 0 10px;
+    }
+
+    header {
+        padding: 5px 0;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .logo h2 {
+        font-size: 16px;
+    }
+
+    .nav_text {
+        font-size: 14px;
+        margin: 0 10px;
+    }
+
+    .authorization_text {
+        font-size: 14px;
+        margin: 0 5px;
+    }
+
+    .nav_img_account {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* Banner */
+    .banner_text {
+        font-size: 28px;
+    }
+
+    .banner_button {
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .banner_img_coffee {
+        max-width: 300px;
+    }
+
+    /* Advantages */
+    .advantages_main_text {
+        font-size: 32px;
+    }
+
+    .advantages_text_for_advantages h2 {
+        font-size: 20px;
+    }
+
+    .advantages_text_for_advantages p {
+        font-size: 14px;
+    }
+
+    /* Buy */
+    .buy_main_text {
+        font-size: 32px;
+    }
+
+    .buy_help_for_main_text,
+    .buy_help_for_change_color {
+        font-size: 24px;
+    }
+
+    .buy_coffee_poetti {
+        max-width: 200px;
+    }
+
+    .color {
+        margin: 0 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .color circle {
+        cx: 15;
+        cy: 15;
+        r: 15;
+    }
+
+    .buy_name_coffee,
+    .buy_price_coffee {
+        font-size: 24px;
+    }
+
+    .basket_button,
+    .buy_button {
+        width: 180px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    /* Reviews */
+    .reviews_main_text {
+        font-size: 32px;
+    }
+
+    .reviews_name {
+        font-size: 24px;
+    }
+
+    .reviews_review {
+        font-size: 14px;
+    }
+
+    /* Footer */
+    .footer_img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer_img_text {
+        font-size: 16px;
+    }
+
+    .footer_nav_text {
+        font-size: 14px;
+        margin: 0 10px;
+    }
+
+    .footer_contact_text,
+    .footer_text_contact {
+        font-size: 16px;
+    }
+}
+
+/* Login and Register Pages */
+@media screen and (max-width: 768px) {
+
+    .login-box,
+    .reg_box {
+        width: 90%;
+        max-width: 500px;
+        padding: 15px;
+    }
+
+    .login-box h1,
+    .reg_box h1 {
+        font-size: 28px;
+    }
+
+    .login-box input[type="email"],
+    .login-box input[type="password"],
+    .login-box #name,
+    .login-box #surname {
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .login-box input[type="submit"] {
+        width: 180px;
+        padding: 8px;
+        font-size: 18px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .line_footer_two {
+        margin-top: 500px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .login-box,
+    .reg_box {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .login-box h1,
+    .reg_box h1 {
+        font-size: 24px;
+    }
+
+    .login-box input[type="email"],
+    .login-box input[type="password"],
+    .login-box #name,
+    .login-box #surname {
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    .login-box input[type="submit"] {
+        width: 160px;
+        font-size: 16px;
+    }
+
+    .line_footer_two {
+        margin-top: 400px;
+    }
+
+    .margin_l {
+        font-size: 18px;
+    }
+}
